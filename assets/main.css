@@ -28,34 +28,65 @@ header {
 }
 
 .main-content {
-    margin: 30px auto 0px;
+    margin: 0px auto;
     width: 95%;
+    display: block;
+    height: 881px;
+}
+
+.section {
+    margin: 10px 0;
 }
 
 .about {
     width: 95%;
-    margin: 30px auto 0px;
+    margin: 15px auto 0px;
 }
 
 .about__content {
-    width: 75%;
-    margin: 0 auto 20px;
+    color: #737374;
+    margin: 10px auto;
     text-align: center;
+    width: 75%;
+}
 
+.section-header {
+    color: #737374;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.contact-item {
+    color: #737374;
+    margin: 10px 0;
+}
+
+.contact-item > .fa {
+    margin-right: 15px;
+    font-size: 20px;
 }
 
 .contact {
-    height: 400px;
+    /*height: 400px;*/
     margin: 10px 0;
 }
 
 .education {
-    height: 200px;
+    /*height: 200px;*/
     margin: 10px 0;
 }
 
 .languages {
-    height: 200px;
+    /*height: 200px;*/
+    margin: 10px 0;
+}
+
+.community {
     margin: 10px 0;
 }
 
@@ -65,7 +96,6 @@ footer {
     border-top 1px solid #EBF2F6;
 
 }
-
 
 /*Utils*/
 
@@ -80,5 +110,11 @@ footer {
 }
 
 .third-width {
-    width: 40%;
+    width: 30%;
+    float: left;
+}
+
+.right-section {
+    width: 69%;
+    float: right;
 }
