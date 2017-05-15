@@ -28,10 +28,10 @@ header {
 }
 
 .main-content {
+    display: block;
+    height: 940px;
     margin: 0px auto;
     width: 95%;
-    display: block;
-    height: 881px;
 }
 
 .section {
@@ -91,9 +91,12 @@ header {
 }
 
 footer {
-    height: 60px;
     background-color: #F7FAFB;
-    border-top 1px solid #EBF2F6;
+    border-top: 1px solid #EBF2F6;
+    border-bottom: 1px solid #EBF2F6;
+    color: #737374;
+    font-size: 14px;
+    height: 60px;
 
 }
 
