@@ -68,17 +68,43 @@ header {
 
 .contact-item > .fa {
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .contact {
-    /*height: 400px;*/
     margin: 10px 0;
 }
 
+/*Education section*/
+
 .education {
-    /*height: 200px;*/
     margin: 10px 0;
+}
+
+.university-logo {
+    margin-left: 20px;
+}
+
+.education-details {
+    width: 60%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.education-details > h4 {
+    margin: 10px 0;
+}
+
+.education-details__name {
+    color: #4ACAF1;
+}
+
+.education-details__degree {
+    color: #737374;
+}
+
+.education-details__generation {
+    color: #B8B8C0;
 }
 
 .languages {
@@ -97,7 +123,6 @@ footer {
     color: #737374;
     font-size: 14px;
     height: 60px;
-
 }
 
 /*Utils*/
