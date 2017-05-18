@@ -161,6 +161,58 @@ header {
     width: 30%;
 }
 
+/*Job experience*/
+
+.experience {
+    min-height: 695px;
+}
+
+.job {
+    margin-left: 20px;
+}
+
+.job__title {
+    color: #4ACAF1;
+    display: inline;
+    padding-left: 0;
+}
+
+.job__title::before {
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    border: 1px solid #737374;
+    content: '';
+    display: inline-block;
+    height: 10px;
+    margin-left: -5px;
+    margin-top: 4px;
+    width: 10px;
+}
+.job__period {
+    color: #B8B8C0;
+}
+
+.position {
+    border-left: 1px solid #737374;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.position__header {
+    color: #737374;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.position__description {
+    color: #B8B8C0;
+    margin: 3px 0 0;
+}
+
+
 
 footer {
     background-color: #F7FAFB;
