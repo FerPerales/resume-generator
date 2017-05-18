@@ -155,6 +155,7 @@ header {
 .skills-list {
     display: inline-block;
     list-style: none;
+    margin-top: 0;
     padding-left: 20px;
     vertical-align: top;
     width: 30%;
