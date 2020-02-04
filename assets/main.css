@@ -1,275 +1,279 @@
 body {
-    background-color: #525650 !important;
-    font-family: 'Roboto', sans-serif;
+  background-color: #525650 !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content {
-    background-color: white;
-    margin: 60px auto;
-    height: 1300px;
-    width: 1200px;
+  background-color: white;
+  margin: 60px auto;
+  height: 1300px;
+  width: 1200px;
 }
 
 header {
-    background-color: #303538;
-    color: white;
-    height: 120px;
-    text-align: center;
-    padding-top: 25px;
+  background-color: #303538;
+  color: white;
+  height: 120px;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .header__name {
-    font-size: 48px;
-    margin-bottom: 0;
-    margin-top: 0;
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .header__title {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .main-content {
-    display: block;
-    height: 940px;
-    margin: 0px auto;
-    width: 95%;
+  display: block;
+  height: 920px;
+  margin: 0px auto;
+  width: 95%;
 }
 
 .section {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .about {
-    width: 95%;
-    margin: 15px auto 0px;
+  width: 95%;
+  margin: 15px auto 0px;
 }
 
 .about__content {
-    color: #737374;
-    margin: 10px auto;
-    text-align: center;
-    width: 75%;
+  color: #737374;
+  margin: 10px auto;
+  text-align: center;
+  width: 75%;
 }
 
 .section-header {
-    color: #737374;
-    margin-top: 10px;
-    text-align: center;
+  color: #737374;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .contact-list {
-    list-style: none;
-    padding-left: 20px;
+  list-style: none;
+  padding-left: 20px;
 }
 
 .contact-item {
-    color: #737374;
-    margin: 10px 0;
+  color: #737374;
+  margin: 10px 0;
 }
 
 .contact-item > .fa {
-    margin-right: 15px;
-    font-size: 24px;
+  margin-right: 15px;
+  font-size: 24px;
 }
 
 .contact {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 /*Education section*/
 
 .education {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .university-logo {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .education-details {
-    width: 60%;
-    display: inline-block;
-    margin-left: 15px;
+  width: 60%;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .education-details > h4 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .education-details__name {
-    color: #4ACAF1;
+  color: #4ACAF1;
 }
 
 .education-details__degree {
-    color: #737374;
+  color: #737374;
 }
 
 .education-details__generation {
-    color: #B8B8C0;
+  color: #B8B8C0;
 }
 
 /*Languages*/
 
 .languages {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .languages-list {
-    list-style: none;
-    padding-left: 20px;
+  list-style: none;
+  padding-left: 20px;
 }
 
 .language-header {
-    color: #4ACAF1;
-    margin: 0;
+  color: #4ACAF1;
+  margin: 0;
 }
 
 .language-item {
-    color: #B8B8C0;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 0;
+  color: #B8B8C0;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 /*Community*/
 
 .community {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .community-list {
-    color: #737374;
-    font-size: 16px;
-    padding: 0 30px;
+  color: #737374;
+  font-size: 16px;
+  padding: 0 30px;
 }
 
 .community-item {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 /*Skills*/
 
 .skills-table {
-    height: auto;
+  height: auto;
 }
 
 .skills-list {
-    display: inline-block;
-    list-style: none;
-    margin-top: 0;
-    padding-left: 20px;
-    vertical-align: top;
-    width: 30%;
+  display: inline-block;
+  list-style: none;
+  margin-top: 0;
+  padding-left: 20px;
+  vertical-align: top;
+  width: 22%;
 }
 
 /*Job experience*/
 
 .experience {
-    min-height: 666px;
+  min-height: 666px;
 }
 
 .job {
-    margin-left: 20px;
+  margin-left: 20px;
+}
+
+.job__header {
+  padding-bottom: 4px;
 }
 
 .job__title {
-    color: #4ACAF1;
-    display: inline;
-    padding-left: 0;
+  color: #4ACAF1;
+  display: inline;
+  padding-left: 0;
 }
 
 .job__title::before {
-    -moz-border-radius: 7.5px;
-    -webkit-border-radius: 7.5px;
-    border-radius: 7.5px;
-    border: 1px solid #737374;
-    content: '';
-    display: inline-block;
-    height: 10px;
-    margin-left: -5px;
-    margin-top: 4px;
-    margin-right: 5px;
-    width: 10px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;
+  border: 1px solid #737374;
+  content: '';
+  display: inline-block;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: 4px;
+  margin-right: 5px;
+  width: 10px;
 
 }
 .job__period {
-    color: #B8B8C0;
+  color: #B8B8C0;
 }
 
 .position {
-    border-left: 1px solid #737374;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  border-left: 1px solid #737374;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .position__header {
-    color: #737374;
-    font-weight: bold;
-    font-size: 14px;
-    margin: 0 0 0 5px;
+  color: #737374;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 0 5px;
 }
 
 
 .position__description {
-    color: #B8B8C0;
-    margin: 3px 5px 0;
+  color: #B8B8C0;
+  margin: 3px 5px 0;
 }
 
 
 
 footer {
-    background-color: #F7FAFB;
-    border-top: 1px solid #EBF2F6;
-    border-bottom: 1px solid #EBF2F6;
-    color: #737374;
-    font-size: 14px;
-    height: 60px;
+  background-color: #F7FAFB;
+  border-top: 1px solid #EBF2F6;
+  border-bottom: 1px solid #EBF2F6;
+  color: #737374;
+  font-size: 14px;
+  height: 60px;
 }
 
 /*Utils*/
 
 .img-circle {
-    border-radius: 50%;
-    margin-top: 10px;
-    width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 100px;
 }
 
 .gray-border {
-    border: 1px solid #DDDDDD;
+  border: 1px solid #DDDDDD;
 }
 
 .third-width {
-    width: 30%;
-    float: left;
+  width: 30%;
+  float: left;
 }
 
 .right-section {
-    width: 69%;
-    float: right;
+  width: 69%;
+  float: right;
 }
 
 .disclaimer {
-    line-height: 30px;
-    float: left;
-    margin-left: 20px;
+  line-height: 30px;
+  float: left;
+  margin-left: 20px;
 }
 
 .last-update {
-    line-height: 30px;
-    float: right;
-    margin-right: 20px;
+  line-height: 30px;
+  float: right;
+  margin-right: 20px;
 }
 
 .full-star::before {
-    content: '\2605';
-    color: #4ACAF1;
-    font-size: 20px;
-    margin: -3px;
+  content: '\2605';
+  color: #4ACAF1;
+  font-size: 20px;
+  margin: -3px;
 }
 
 .empty-star::before {
-    content: '\2606';
-    color: black;
-    font-size: 20px;
-    margin: -3px;
+  content: '\2606';
+  color: black;
+  font-size: 20px;
+  margin: -3px;
 }
